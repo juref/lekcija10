@@ -17,4 +17,4 @@ while True:
         print random.sample(range(1, 39), int(how_many))
         break
     else:
-        print "\nNapaka, Prosim vnesite da ali ne!"
+        print "\nNapaka, Prosim vnesite \"da\" ali \"ne\"!"
