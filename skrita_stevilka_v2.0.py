@@ -24,7 +24,7 @@ def main ():
         se_poizkus = 3 - poizkus
         odgovor = str(raw_input("\nUgani skrito številko med 1 in 30 (poskusiš lahko še " + str(se_poizkus) + "x): "))
 
-        if not odgovor.isdigit() or len(odgovor) == 0:
+        if not odgovor.isdigit():
             print "\033[91mTo ni število\033[0m"
         elif int(odgovor) == skrita_stevilka:
             # os.system('clear')  # dela samo v terminalu za mac in linux!!!
